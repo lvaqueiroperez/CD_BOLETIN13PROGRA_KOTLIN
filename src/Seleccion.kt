@@ -7,6 +7,6 @@ en el constructor, como un builder. Los parámetros por defecto se suelen poner 
  */
 open class Seleccion ( var nombre:String, var apellido:String, var id:Int=0, var edad:Int=0 ) {
 
-    
+
 
 }
