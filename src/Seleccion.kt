@@ -7,7 +7,7 @@ en el constructor, como un builder. Los parámetros por defecto se suelen poner 
 Poniéndolos de esta forma, lo que esté entre paréntesis será los parámetros que recibe el constructor y el constructor
 en sí, además de los atributos de la clase
  */
-open class Seleccion ( var nombre:String, var apellido:String, var id:Int, var edad:Int ){
+open class Seleccion ( var nombre:String, var apellido:String, var id:Int = 0, var edad:Int = 0 ){
 
 }
 
