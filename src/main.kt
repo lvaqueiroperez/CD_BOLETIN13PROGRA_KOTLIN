@@ -1,5 +1,9 @@
 fun main(){
 
+    /*
+    En esta creación de objetos, podríamos omitir los parámetros "id" y "edad" porque ya están inicializados en la
+     clase "Seleccion" en el constructor con un valor por defecto (como si fuera un Builder en Java)
+     */
     val obxS= Seleccion("Pepe","Perez", 1, 20)
     val obxX= Xogador(1,"aaaa","Marta","Lopez",1,20)
     val obxE = Entrenador("sss","Pedro","Fernandez",3,21)

@@ -7,6 +7,11 @@ en el constructor, como un builder. Los parámetros por defecto se suelen poner 
 Poniéndolos de esta forma, lo que esté entre paréntesis será los parámetros que recibe el constructor y el constructor
 en sí, además de los atributos de la clase
  */
+/*
+Para que una clase pueda ser "superclase", tendremos que poner el modificador "open", tanto en la clase
+como en las funciones que deseemos que sean heredadas
+ */
+
 open class Seleccion ( var nombre:String, var apellido:String, var id:Int = 0, var edad:Int = 0 ){
 
     open fun concentrarse() {
