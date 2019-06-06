@@ -21,7 +21,9 @@ open class Seleccion ( var nombre:String, var apellido:String, var id:Int = 0, v
 
 
 
-
+    override fun toString(): String {
+        return "Seleccion(nombre='$nombre', apellido='$apellido', id=$id, edad=$edad)"
+    }
 
 
 }

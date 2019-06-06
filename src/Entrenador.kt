@@ -13,4 +13,10 @@ class Entrenador(var idFederacion:String, nombre:String, apellido:String, id:Int
     override fun viajar() {
         println("viaja el entrenador")
     }
+
+    override fun toString(): String {
+        return "Entrenador(idFederacion='$idFederacion')"
+    }
+
+
 }

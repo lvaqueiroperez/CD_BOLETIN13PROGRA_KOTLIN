@@ -8,4 +8,10 @@ class Masaxista(var titulacion:String, var anosExperiencia:Int,nombre:String,ape
     override fun viajar() {
         println("viaja masajista")
     }
+
+    override fun toString(): String {
+        return "Masaxista(titulacion='$titulacion', anosExperiencia=$anosExperiencia)"
+    }
+
+
 }

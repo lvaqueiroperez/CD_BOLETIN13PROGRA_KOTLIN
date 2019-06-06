@@ -13,6 +13,12 @@ class Xogador (  var dorsal:Int,  var emarcacion:String, nombre:String, apellido
     override fun viajar() {
         println("viaja el jugador")
     }
+
+    override fun toString(): String {
+        return "Xogador(dorsal=$dorsal, emarcacion='$emarcacion')"
+    }
+
+
 }
 
 
