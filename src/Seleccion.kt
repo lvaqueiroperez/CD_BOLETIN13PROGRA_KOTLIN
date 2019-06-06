@@ -9,6 +9,21 @@ en sí, además de los atributos de la clase
  */
 open class Seleccion ( var nombre:String, var apellido:String, var id:Int = 0, var edad:Int = 0 ){
 
+    open fun concentrarse() {
+       println("Se concentra la seleccion")
+    }
+
+    open fun viajar() {
+        println("Viaja la seleccion")
+    }
+
+
+
+
+
+
+
+
 }
 
 
